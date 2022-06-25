@@ -108,7 +108,7 @@ function displayMenuButtons() {
             values.push(item.category)
         }
         return values
-    }, ['all'])
+    }, ['Todo'])
     const categoryBtns = categories.map(category => `<button class="filter-btn" type="button">${category}</button>`).join("")
     $btnContainer.innerHTML = categoryBtns
     
@@ -118,7 +118,7 @@ function displayMenuButtons() {
         btn.addEventListener('click', e => {
             const category = e.currentTarget.textContent
             const menuCategory = menu.filter(menuItem => menuItem.category === category)
-            if(category === 'all') {
+            if(category === 'Todo') {
                 displayMenuItems(menu)
             } else {
                 displayMenuItems(menuCategory)
