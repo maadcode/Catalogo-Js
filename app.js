@@ -9,7 +9,7 @@ const menu = [
     },
     {
         id: 2,
-        title: "Juego de comedor",
+        title: "Juego de comedor cuadrado",
         category: "Mesas",
         price: 13.99,
         img: "./assets/juego-de-comedor.jpg",
@@ -33,7 +33,7 @@ const menu = [
     },
     {
         id: 5,
-        title: "Juego de comedor",
+        title: "Juego de comedor circular",
         category: "Mesas",
         price: 10.99,
         img: "./assets/juego-de-comedor-2.jpg",
@@ -41,7 +41,7 @@ const menu = [
     },
     {
         id: 6,
-        title: "Juego de comedor",
+        title: "Juego de comedor Oscuro",
         category: "Mesas",
         price: 17.99,
         img: "./assets/juego-de-comedor-3.jpg",
