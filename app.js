@@ -93,7 +93,7 @@ function displayMenuItems(menuItems) {
                     </header>
                     <p class="item-text">${item.desc}</p>
                 </div>
-                <a href="" target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Hacer pedido</a>
+                <a href="https://api.whatsapp.com/send?phone=+51940146776&text=Hola%20quiero%20un%20${item.title}" target="_blank" class="btn-whatsapp"><i class="fab fa-whatsapp"></i> Hacer pedido</a>
             </article>
         `
     })
