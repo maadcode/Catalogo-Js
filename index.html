@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <section class="menu">
         <div class="title">
@@ -14,11 +16,48 @@
             <div class="underline"></div>
         </div>
 
-        <div class="btn-container"></div>
+        <div class="filtro--row">
+            <h3>Categorías</h3>
+            <div class="btn-container"></div>
+        </div>
+
+        <div class="filtro--row">
+            <h3>Filtros adicionales</h3>
+            <div>
+                <div>
+                    <select class="filtro--dropdown" id="tamano">
+                        <option value="">Tamaño</option>
+                        <option value="Pequeño">Pequeño</option>
+                        <option value="Mediano">Mediano</option>
+                        <option value="Grande">Grande</option>
+                    </select>
+                </div>
+                <div>
+                    <select class="filtro--dropdown" id="precioMin">
+                        <option value="">Precio Mínimo</option>
+                        <option value="100">100</option>
+                        <option value="500">500</option>
+                        <option value="1000">1,000</option>
+                        <option value="2000">2,000</option>
+                    </select>
+                </div>
+                <div>
+                    <select class="filtro--dropdown" id="precioMax">
+                        <option value="">Precio Máximo</option>
+                        <option value="500">500</option>
+                        <option value="1000">1,000</option>
+                        <option value="2000">2,000</option>
+                        <option value="5000">5,000</option>
+                    </select>
+                </div>
+                <button class="btn" id="filtrosExtras">Filtrar</button>
+            </div>
+        </div>
 
         <div class="section-center"></div>
     </section>
 
     <script src="app.js"></script>
 </body>
+
 </html>
